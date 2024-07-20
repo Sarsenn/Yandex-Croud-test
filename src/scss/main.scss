@@ -1,0 +1,18 @@
+@import 'config/fonts';
+@import 'components/header';
+@import 'components/btn';
+@import 'components/running-text';
+* {
+	font-family: Merriweather, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+}
+.container {
+	width: 1220px;
+	margin: 0 auto;
+	@media (max-width:1220px) {
+		width: 1024px;
+	}
+}
+body {
+}

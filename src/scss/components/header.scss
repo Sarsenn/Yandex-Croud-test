@@ -1,0 +1,50 @@
+.head {
+	height: 700px;
+	padding-top: 26px;
+	background: url('../images/1920 (1).png') center center/cover no-repeat;
+	&__title {
+		width: 542px;
+		margin-top: 62px;
+		 h1 {
+			color: rgb(49, 49, 49);
+			font-family: Merriweather;
+			font-size: 60px;
+			font-weight: 400;
+			line-height: 110%;
+			letter-spacing: 0px;
+			text-align: left;
+			text-transform: uppercase;
+		 }
+		 &_descr {
+			margin-top: 24px;
+			color: rgb(49, 49, 49);
+			font-family: GolosText;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 130%;
+			letter-spacing: 0px;
+			text-align: center;
+		 }
+		 &_wrapper {
+			display: flex;
+			width: 540px;
+			justify-content: space-between;
+			margin-top: 40px;
+		 }
+		 
+	}
+	&__other {
+		color: rgb(49, 49, 49);
+		font-family: Merriweather;
+		font-size: 60px;
+		font-weight: 400;
+		line-height: 110%;
+		letter-spacing: 0px;
+		text-align: center;
+		text-transform: uppercase;
+		&_right {
+			text-align: right;
+		}
+	} 
+
+}
