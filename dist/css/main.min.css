@@ -225,6 +225,110 @@
     transform: translateX(-50%);
   }
 }
+.information {
+  padding-top: 140px;
+  min-height: 1120px;
+}
+.information__top {
+  display: flex;
+  justify-content: space-around;
+}
+.information__top-descr {
+  width: 764px;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.information__top-descr strong {
+  color: red;
+}
+.information__top-img {
+  width: 386px;
+  height: 250px;
+  overflow: hidden;
+  clip-path: ellipse(49% 50% at 50% 50%);
+}
+.information__buttom {
+  display: flex;
+  min-height: 527px;
+  margin-top: 64px;
+  justify-content: space-around .information__buttom -wrapper;
+  justify-content-width: 704px;
+}
+.information__buttom-text {
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.information__buttom-text strong {
+  color: red;
+}
+.information__buttom-td {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 60px;
+}
+.information__buttom-td th {
+  padding: 16px;
+  border-bottom: 1px solid rgb(208, 208, 208);
+}
+.information__buttom-td th:nth-child(odd) {
+  border-right: 1px solid rgb(208, 208, 208);
+  color: rgb(49, 49, 49);
+  width: 320px;
+  font-family: GolosText;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.information__buttom-td th:nth-child(even) {
+  color: rgb(49, 49, 49);
+  font-family: GolosText;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.information__buttom-td .end {
+  border-bottom: none;
+}
+.information__buttom-td span {
+  position: relative;
+}
+.information__buttom-td span::before {
+  content: "";
+  width: 100%;
+  height: 0.1em;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: rotate(-1deg);
+}
+.information__buttom-questions {
+  display: block;
+  margin-top: 48px;
+  color: rgb(48, 87, 162);
+  text-decoration: none;
+  font-family: GolosText;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
 * {
   font-family: Merriweather, sans-serif;
   box-sizing: border-box;
@@ -235,9 +339,19 @@
   width: 1220px;
   margin: 0 auto;
 }
-@media (max-width: 1220px) {
+@media (max-width: 1200px) {
   .container {
-    width: 1024px;
+    width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
   }
 }
 /*# sourceMappingURL=main.min.css.map */
