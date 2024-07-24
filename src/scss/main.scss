@@ -8,6 +8,23 @@
 	box-sizing: border-box;
 	margin: 0;
 }
+.mobile_text {
+	display: none;
+	@media (max-width:576px) {
+		display: block;
+		margin-top: 20px;
+		font-family:  Merriweather;
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 135%;
+		letter-spacing: 0px;
+		text-align: center;
+		text-transform: uppercase;
+		strong {
+			color: red;
+		}
+	}
+}
 .container {
 	width: 1220px;
 	margin: 0 auto;
@@ -19,6 +36,9 @@
 	}
 	@media (max-width:768px) {
 		width: 540px;
+	}
+	@media (max-width:576px) {
+		width: 100%;
 	}
 }
 

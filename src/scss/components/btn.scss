@@ -19,6 +19,14 @@
 	background: rgb(251, 206, 81);
 	color: rgb(31, 31, 31);
 	}
+	@media (max-width:576px) {
+		width: 90%;
+		padding-top: 25px;
+	}
+	@media (max-width:370px) {
+		height: 47px;
+		padding: 10px 10px;
+	}
 	&_white {
 		box-sizing: border-box;
 		background: none;
@@ -29,6 +37,15 @@
 			background: rgb(31, 31, 31);
 			color: rgb(255, 255, 255);
 		}
-
+		@media (max-width:576px) {
+			width: 90%;
+			margin-top: 10px;
+			padding-top: 25px;
+			background-color: rgba(255,255,255,0.9);
+			border-color: white;
+		}
+		@media (max-width:370px) {
+			padding: 10px 10px;
+		}
 	}
 }
