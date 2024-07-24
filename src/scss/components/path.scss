@@ -1,0 +1,21 @@
+.path {
+	min-height: 700px;
+	&__grid {
+		display: grid;
+		height: 350px;
+		grid-template-columns: repeat(3,1fr);
+		gap: 20px;
+		grid-template-rows:repeat(3, 1fr) ;
+		&_items-wrapper {
+			background: url('../images/path.png') center center/cover no-repeat;
+			display: flex;
+			justify-content: space-between;
+			&:nth-child(3) {
+				grid-row: span 2;
+			}
+			&:nth-child(7) {
+				grid-column: span 2;
+			}
+		}
+	}
+}

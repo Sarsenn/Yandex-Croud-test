@@ -528,6 +528,28 @@
   text-align: left;
 }
 
+.path {
+  min-height: 700px;
+}
+.path__grid {
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-template-rows: repeat(3, 1fr);
+}
+.path__grid_items-wrapper {
+  background: url("../images/path.png") center center/cover no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+.path__grid_items-wrapper:nth-child(3) {
+  grid-row: span 2;
+}
+.path__grid_items-wrapper:nth-child(7) {
+  grid-column: span 2;
+}
+
 * {
   font-family: Merriweather, sans-serif;
   box-sizing: border-box;
