@@ -1,0 +1,81 @@
+.slider {
+	position: relative;
+	max-width: 600px;
+	overflow: hidden;
+	margin: 0 auto;
+	&_line {
+		background-color: black;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		transition: all 1s;
+	}
+	&_content {
+		flex: none;
+		width: 600px;
+		height: 300px;
+		position: relative;
+		background: url('../images/bgc.png') center center/cover no-repeat;
+
+	}
+	&_text {
+		display: block;
+		width: 243px;
+		text-align: left;
+		margin: 30px auto;
+		color: rgb(49, 49, 49);
+		font-family: GolosText;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 20px;
+	}
+ 	&_round,&_round_two {
+		width: 36px;
+		height: 36px;
+		background-color: #fff;
+		left: 135px;
+		top: 30px;
+		border-radius: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+	}
+	&_round_two {
+		top: 140px;
+	} 
+	&_btn-prev, &_btn-next {
+		cursor: pointer;
+		position: absolute;
+		left: 1%;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: transparent;
+		border: none;
+		width: 50px;
+		height: 50px;
+	}
+	&_btn-next{
+		left: 90%;
+	}
+	&_wrapper {
+		display: flex;
+		column-gap: 10px;
+		position: absolute;
+		
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	&_dots {
+		width: 15px;
+		height: 15px;
+		border: 1px solid rgba(49, 49, 49, 0.2);
+		border-radius: 100%;
+		&:hover {
+			background-color: rgb(49, 49, 49);
+		}
+	}
+	.active_dots {
+		background-color: rgb(49, 49, 49);
+	}
+}

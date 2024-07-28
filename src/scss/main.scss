@@ -4,6 +4,7 @@
 @import 'components/running-text';
 @import 'components/information';
 @import 'components/path';
+@import 'components/slider';
 * {
 	font-family: Merriweather, sans-serif;
 	box-sizing: border-box;
@@ -40,6 +41,9 @@
 	}
 	@media (max-width:576px) {
 		width: 100%;
+	}
+	@media (max-width:375px) {
+		width: 90%;
 	}
 }
 
