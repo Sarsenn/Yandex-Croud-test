@@ -1,0 +1,47 @@
+.arrow-2 {
+
+    &:hover {
+        background-color: rgb(251, 206, 81);
+    }
+    &:disabled {
+        background-color: rgb(214, 214, 214);
+    }
+    @media (max-width:375px) {
+        width: 36px;
+        height: 36px;
+
+    }
+}
+.arrow-2-top, 
+.arrow-2-bottom {
+    background: white;
+    height: 2px;
+    left: -8px;
+    position: absolute;
+    top: 22px;
+    width: 20px;
+}
+.arrow-2-top {
+    top: 20px;
+}
+.arrow-2-top {
+    transform: rotate(135deg);
+    transform-origin: bottom right;
+}
+.one {
+    transform: rotate(45deg);
+    left: 10px;
+    top: 22px;
+}
+.arrow-2-bottom {
+    transform: rotate(-135deg);
+    transform-origin: top right;
+}
+.two {
+    transform: rotate(-45deg);
+    left: 10px;
+    top: 21px;
+}
+
+
+

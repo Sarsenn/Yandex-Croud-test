@@ -67,7 +67,7 @@
 				@media (max-width:576px) {
 					display: block;
 					margin:0 auto;
-					width: 360px;
+					width: 100%;
 				}
 
 			}
@@ -131,7 +131,7 @@
 			width: 100%;
 			border-collapse: collapse;
 			margin-top: 60px;
-			@media (max-width:370px) {
+			@media (max-width:375px) {
 				margin-top: 20px;
 			}
 			tr {

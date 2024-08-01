@@ -7,9 +7,10 @@
 	position: relative;
 	bottom: -117px;
 	overflow: hidden;
-	@media (max-width:370px) {
-		bottom: -55px;
+	@media (max-width:375px) {
+		bottom: -244px;
 		height: 38px;
+		
 	}
 	&-wrapper {
 		position: absolute;
@@ -38,8 +39,8 @@
 			height: 6px;
 			background: rgb(255, 255, 255);
 		}
-		@media (max-width:370px) {
-			font-size: 14px;
+		@media (max-width:375px) {
+			font-size: 18px;
 		}
 	}
 
