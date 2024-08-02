@@ -7,6 +7,10 @@
 	position: relative;
 	bottom: -117px;
 	overflow: hidden;
+	@media (max-width:758px) {
+		bottom: -117px;
+		
+	}
 	@media (max-width:375px) {
 		bottom: -244px;
 		height: 38px;

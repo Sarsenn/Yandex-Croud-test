@@ -2,7 +2,7 @@
 	height: 700px;
 	padding-top: 26px;
 	background: url('../images/1920 (1).png') center center/cover no-repeat;
-	@media (max-width:768px) {
+	@media (max-width:576px) {
 		min-height: 812px;
 		background: url('../images/main-screen.png') bottom center/cover no-repeat;
 	}
@@ -23,6 +23,11 @@
 			text-transform: uppercase;
 			@media (max-width:576px) {
 				font-size: 44px;
+			}
+			@media (max-width:576px) {
+				font-size: 46px;
+				text-align: center;
+	
 			}
 			@media (max-width:375px) {
 				font-size: 36px;
@@ -65,7 +70,7 @@
 		text-align: center;
 		text-transform: uppercase;
 		@media (max-width:576px) {
-			text-align: left;
+			text-align: center;
 			font-size: 44px;
 		}
 		@media (max-width:375px) {
